@@ -18,7 +18,7 @@ use pocketmine\command\ConsoleCommandSender;
 use pocketmine\scheduler\CallbackTask;
 
 
-class Main extends PluginBase implements Listener {
+class Main extends PluginBase implements Listener{
 	
 	public function onEnable(){
 		$this->touch = [];
