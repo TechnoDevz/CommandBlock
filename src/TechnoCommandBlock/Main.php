@@ -16,6 +16,7 @@ use pocketmine\event\server\ServerCommandEvent;
 use pocketmine\event\player\PlayerCommandPreprocessEvent;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\scheduler\CallbackTask;
+use TechnoCommandBlock/Main
 
 class Main extends PluginBase implements Listener {
 	
