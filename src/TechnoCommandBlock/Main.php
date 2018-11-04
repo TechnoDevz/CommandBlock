@@ -22,8 +22,9 @@ class Main extends PluginBase implements Listener{
 	
 	public function onEnable(){
 		$this->touch = [];
-		$this->place = [];
-		$this->getServer()->getScheduler()->scheduleRepeatingTask(new CallbackTask([$this,"onTick" ]), 20);
+		$this->place = [];ff
+fffffffffff
+		$this->getScheduler()->scheduleDelayedRepeatingTask(new CallbackTask($this), "onTick" ]), 20);
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->loadYml();
 	}
