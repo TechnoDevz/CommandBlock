@@ -1,7 +1,7 @@
 <?php
 // This Plugin is Made by TechnoDevs Pandaz
 
-namespace TechnoCommandBlock\CommandBlock;
+namespace TechnoCommandBlock;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
