@@ -1,0 +1,27 @@
+name: TechnoCommandBlock
+main: TechnoCommandBlock/Main
+version; 1.0.0
+api: [3.3.0]
+author: TechnoDevs
+
+commands:
+ commandblock:
+  permission: techno.commandblock.cmd
+  description: CommandBlock - Command
+  usage: /CommandBlock <Add|Del|Reset>
+
+permissions:
+ debe:
+  default: op
+  description: TechnoDevs CommandBlocks
+  children:
+   techno.commandblock.cmd:
+    description: CommandBlock - Command
+   techno.commandblock.block:
+    description: CommandBlock - Edit block
+   techno.commandblock.touch:
+    default: true
+    description: CommandBlock - Touch commandblock
+   techno.commandblock.push:
+    default: true
+    description: CommandBlock - Push commandblock
