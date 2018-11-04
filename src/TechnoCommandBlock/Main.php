@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->loadYml();
 	}
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $sub){
+	public function onCommand(CommandSender $sender, Command $cmd, $label, array $sub) : bool {
 		$n = $sender->getName();
 		if(!isset($sub[0])) return false;
 		$cb = $this->cb;
